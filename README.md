@@ -137,9 +137,14 @@ The swap flow ([`app/swap/page.tsx`](frontend/app/swap/page.tsx)) surfaces four 
 4. **User-rejected signature** → “Transaction rejected in wallet”.
 
 Plus: loading/pending spinners during submission, trustline status and action checks ([`useStellarTrustline`](frontend/core/hooks/useStellarTrustline.ts)), and normalized error extraction ([`safeStellarHandler`](frontend/core/lib/safeStellarHandler.ts)).
+---
 
+## 📸 Screenshots
 
+### 🔗 Desktop Homepage
+![Desktop Homepage](screenshots/desktop_homepage.png)
 
+---
 ## 🚦 Setup Instructions
 
 ### Prerequisites

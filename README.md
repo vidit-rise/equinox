@@ -181,7 +181,7 @@ STELLAR_ISSUER_SECRET=S... STELLAR_DISTRIBUTOR_SECRET=S... node scripts/deploy.j
 ```
 The script funds accounts via Friendbot, deploys the SAC + pool + bridge, initializes them, and writes real addresses/tx hashes to `deployments/testnet.json`.
 
-### 4. Deploy the frontend to Cloudflare Pages
+### 4. Deploy the frontend to Netlify
 The frontend is a **fully static export** (no server runtime — all chain reads happen client-side against public RPC/Horizon), so it deploys as static assets.
 
 ```bash
@@ -189,16 +189,16 @@ cd frontend
 npm run build      # output: 'export' → produces frontend/out/
 ```
 
-**Cloudflare Pages settings** (Dashboard → Workers & Pages → Create → Pages → Connect to Git):
+**Netlify settings** (Dashboard → Add new site → Import an existing project):
 
 | Setting | Value |
 | :--- | :--- |
-| Production branch | `main` |
-| Framework preset | `Next.js (Static HTML Export)` |
-| Build command | `cd frontend && npm install && npm run build` |
-| Build output directory | `frontend/out` |
+| Build command | `cd frontend && npm ci && npm run build` |
+| Publish directory | `frontend/out` |
 
-The contract addresses are baked into [`core/lib/networkConfig.ts`](frontend/core/lib/networkConfig.ts) as defaults, so it works with no env config. To override, add `NEXT_PUBLIC_POOL_CONTRACT_ADDRESS`, `NEXT_PUBLIC_TOKEN_CONTRACT_ADDRESS`, `NEXT_PUBLIC_SST_ISSUER`, `NEXT_PUBLIC_SOROBAN_RPC_URL`, and `NEXT_PUBLIC_HORIZON_URL` in the Pages **Environment variables** (Production) before building.
+*(Note: These settings are also pre-configured in `netlify.toml` in the repository root.)*
+
+The contract addresses are baked into [`core/lib/networkConfig.ts`](frontend/core/lib/networkConfig.ts) as defaults, so it works with no env config. To override, add `NEXT_PUBLIC_POOL_CONTRACT_ADDRESS`, `NEXT_PUBLIC_TOKEN_CONTRACT_ADDRESS`, `NEXT_PUBLIC_SST_ISSUER`, `NEXT_PUBLIC_SOROBAN_RPC_URL`, and `NEXT_PUBLIC_HORIZON_URL` in the Netlify **Environment variables** before building.
 
 ---
 

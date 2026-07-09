@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Fully static export — deployable to Cloudflare Pages (and any static host).
+  // Fully static export — deployable to Netlify (and any static host).
   output: 'export',
   images: {
     unoptimized: true,

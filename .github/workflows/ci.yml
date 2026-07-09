@@ -89,14 +89,14 @@ jobs:
         with:
           workspaces: contracts
 
-      - name: Build secure-stream-token
-        run: cd contracts/secure-stream-token && cargo build --target wasm32-unknown-unknown --release
+      - name: Build equinox-token
+        run: cd contracts/equinox-token && cargo build --target wasm32-unknown-unknown --release
 
-      - name: Build secure-stream-pool
-        run: cd contracts/secure-stream-pool && cargo build --target wasm32-unknown-unknown --release
+      - name: Build equinox-pool
+        run: cd contracts/equinox-pool && cargo build --target wasm32-unknown-unknown --release
 
-      - name: Build secure-stream-bridge
-        run: cd contracts/secure-stream-bridge && cargo build --target wasm32-unknown-unknown --release
+      - name: Build equinox-bridge
+        run: cd contracts/equinox-bridge && cargo build --target wasm32-unknown-unknown --release
 
       - name: Upload WASM artifacts
         uses: actions/upload-artifact@v4

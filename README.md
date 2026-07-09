@@ -138,18 +138,7 @@ The swap flow ([`app/swap/page.tsx`](frontend/app/swap/page.tsx)) surfaces four 
 
 Plus: loading/pending spinners during submission, trustline status and action checks ([`useStellarTrustline`](frontend/core/hooks/useStellarTrustline.ts)), and normalized error extraction ([`safeStellarHandler`](frontend/core/lib/safeStellarHandler.ts)).
 
----
 
-## 📸 Screenshots
-
-- **Wallet Connected & Dashboard:** ![Dashboard Desktop](/screenshots/desktop_homepage.png)
-- **Swap Core Flow:** ![Swap Mobile](/screenshots/mobile_swap.png)
-- **Liquidity Pool / Success State:** ![Pool Mobile](/screenshots/mobile_pool.png)
-- **Mobile UI Dashboard:** ![Dashboard Mobile](/screenshots/mobile_dashboard.png)
-- **Test Output:** ![Contracts Test](/screenshots/test_output.png)
-- **CI/CD Run:** ![CI Passing](/screenshots/ci_passing.png)
-
----
 
 ## 🚦 Setup Instructions
 

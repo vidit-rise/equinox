@@ -10,7 +10,7 @@
 [![Next.js](https://img.shields.io/badge/Frontend-Next.js_14-black?logo=next.js)](https://nextjs.org)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-**Live Demo:** [equinox.vidit1241.workers.dev](https://equinox.vidit1241.workers.dev/)
+**Live Demo:** [equinox.vidit1241-af4.workers.dev](https://equinox.vidit1241-af4.workers.dev/)
 **Demo Video (1–2 min):** PENDING — human must record and link
 
 </div>

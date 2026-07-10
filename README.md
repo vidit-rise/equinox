@@ -11,7 +11,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 **Live Demo:** [equinox.vidit1241-af4.workers.dev](https://equinox.vidit1241-af4.workers.dev/)
-**Demo Video (1–2 min):** PENDING — human must record and link
+**Demo Video (1–2 min):** [Watch Walkthrough](https://github.com/vidit-rise/equinox/raw/main/screenshots/walkthrough_demo.mov)
 
 </div>
 
@@ -150,7 +150,7 @@ Plus: loading/pending spinners during submission, trustline status and action ch
 ![Pool Mobile](screenshots/mobile_pool.png)
 
 ### 🔗 Walkthrough Demo
-https://github.com/vidit-rise/equinox/raw/main/screenshots/walkthrough_demo.mov
+<video src="https://github.com/vidit-rise/equinox/raw/main/screenshots/walkthrough_demo.mov" controls="controls" muted="muted" width="100%"></video>
 
 ### 🔗 CI/CD Pipeline (passing)
 ![CI Passing](screenshots/ci_passing.png)

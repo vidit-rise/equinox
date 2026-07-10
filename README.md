@@ -144,6 +144,17 @@ Plus: loading/pending spinners during submission, trustline status and action ch
 ### 🔗 Desktop Homepage
 ![Desktop Homepage](screenshots/desktop_homepage.png)
 
+### 🔗 Mobile — Dashboard • Swap • Liquidity Pool
+![Dashboard Mobile](screenshots/mobile_dashboard.png)
+![Swap Mobile](screenshots/mobile_swap.png)
+![Pool Mobile](screenshots/mobile_pool.png)
+
+### 🔗 Walkthrough Demo
+<video controls src="screenshots/walkthrough_demo.mov" width="100%"></video>
+
+### 🔗 CI/CD Pipeline (passing)
+![CI Passing](screenshots/ci_passing.png)
+
 ---
 ## 🚦 Setup Instructions
 

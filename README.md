@@ -150,8 +150,14 @@ Plus: loading/pending spinners during submission, trustline status and action ch
 ![Pool Mobile](screenshots/mobile_pool.png)
 
 ### 🔗 Walkthrough Demo
-<video src="https://github.com/vidit-rise/equinox/raw/main/screenshots/walkthrough_demo.mov" controls="controls" muted="muted" width="100%"></video>
-
+<video src="https://raw.githubusercontent.com/vidit-rise/equinox/main/screenshots/walkthrough_demo.mov"
+       autoplay
+       muted
+       loop
+       playsinline
+       controls
+       width="100%">
+</video>
 ### 🔗 CI/CD Pipeline (passing)
 ![CI Passing](screenshots/ci_passing.png)
 

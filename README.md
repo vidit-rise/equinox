@@ -11,7 +11,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 **Live Demo:** [equinox.vidit1241-af4.workers.dev](https://equinox.vidit1241-af4.workers.dev/)
-**Demo Video (1–2 min):** [Watch Walkthrough](https://github.com/vidit-rise/equinox/raw/main/screenshots/walkthrough_demo.mov)
+**Demo Video (1–2 min):** [Watch Walkthrough](https://github.com/vidit-rise/equinox/raw/main/screenshots/walkthrough_demo.gif)
 
 </div>
 
